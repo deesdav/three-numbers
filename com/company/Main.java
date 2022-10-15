@@ -9,14 +9,19 @@ public class Main {
         int x = sc.nextInt();
         int y = sc.nextInt();
         int z = sc.nextInt();
-        if (x > y) {
-            System.out.println("Největší je " + x);
-        } else if (x < z) {
-            System.out.println("Největší je " + z);
-        }
-        else {
-            System.out.println("Největší je " + y);
-        }
+        
+      if (x > y && x>z) {
+        System.out.println("Největší číslo je " + x);
+      }
+      else if (z>y) {
+System.out.println("Největší číslo je " + z);
+      }
+      else {
+        System.out.println("Nejvetší číslo je " + y);
+      }
+      
+         
+        
        
     }
 }
